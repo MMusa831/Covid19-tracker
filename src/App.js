@@ -50,7 +50,9 @@ export class App extends Component {
            return (
              <div className="container">
                <div className="top-div">
-                 <h2 className="covid">Covid19 Tracker</h2>
+                 <h2 className="covid">
+                   Covid19<i class="fas fa-virus"></i>Tracker
+                 </h2>
                  <select
                    className="country-select"
                    onChange={this.fetchCountry}

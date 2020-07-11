@@ -6,7 +6,7 @@
   box-sizing: border-box;  
 }
 body {
-  background: #a9e9e9;
+  background: #418a68;
 }
 .container {
   padding: 1em;
@@ -23,7 +23,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 1.5rem auto;
   text-align: center;
-  color: rgb(6, 6, 82);
+  color: #ffffff;
 }
 .box {
    text-align: center;
