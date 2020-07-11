@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Axios from "axios";
 import CountUp from 'react-countup';
-import FormControl from "@material-ui/core/FormControl";
-import NativeSelect from "@material-ui/core/NativeSelect";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVirus } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 export class App extends Component {
@@ -51,7 +51,9 @@ export class App extends Component {
              <div className="container">
                <div className="top-div">
                  <h2 className="covid">
-                   Covid19<i class="fas fa-virus"></i>Tracker
+                   <span className="span">Covid19</span>{" "}
+                   <FontAwesomeIcon className="icon" icon={faVirus} size="2x" />{" "}
+                   <span className="span">Tracker</span>
                  </h2>
                  <select
                    className="country-select"
